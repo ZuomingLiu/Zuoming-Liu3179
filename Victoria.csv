@@ -1,0 +1,11 @@
+Place,Climate type,January max. temp,January min. temp,July max. temp,July min. temp,No. clear days,Annual precipitation
+Bairnsdale[61],Cfb,26?°„C (79?°„F),13?°„C (55?°„F),15?°„C (59?°„F),4?°„C (39?°„F),60,650?mm (26?in)
+Ballarat[62],Cfb,25?°„C (77?°„F),11?°„C (52?°„F),10?°„C (50?°„F),3?°„C (37?°„F),55,690?mm (27?in)
+Bendigo[63],Cfa/Cfb,30?°„C (86?°„F),14?°„C (57?°„F),12?°„C (54?°„F),3?°„C (37?°„F),110,514?mm (20?in)
+Falls Creek[64],Cfc,18?°„C (64?°„F),9?°„C (48?°„F),1?°„C (34?°„F),?3?°„C (27?°„F),N/A,"1,274?mm (50?in)"
+Geelong[65],Cfb,25?°„C (77?°„F),13?°„C (55?°„F),14?°„C (57?°„F),5?°„C (41?°„F),38[66],524?mm (21?in)
+Melbourne[67]?(capital),Cfb,26?°„C (79?°„F),14?°„C (57?°„F),14?°„C (57?°„F),6?°„C (43?°„F),49,648?mm (26?in)
+Mildura[68],BSk,32?°„C (90?°„F),17?°„C (63?°„F),15?°„C (59?°„F),4?°„C (39?°„F),132,291?mm (11?in)
+Portland[69],Csb/Cfb,22?°„C (72?°„F),12?°„C (54?°„F),13?°„C (55?°„F),6?°„C (43?°„F),40,840?mm (33?in)
+Shepparton[70],BSk,32?°„C (90?°„F),15?°„C (59?°„F),13?°„C (55?°„F),3?°„C (37?°„F),N/A,452?mm (18?in)
+Warrnambool[71],Cfb,22?°„C (72?°„F),13?°„C (55?°„F),13?°„C (55?°„F),6?°„C (43?°„F),53,743?mm (29?in)
