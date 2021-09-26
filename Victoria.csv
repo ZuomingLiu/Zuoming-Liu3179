@@ -1,0 +1,12 @@
+Place,Climate type,January max. temp,January min. temp,July max. temp,July min. temp,No. clear days,Annual precipitation
+Bairnsdale[61],Cfb,26C (79F),13C (55F),15C (59F),4C (39F),60,650mm (26in)
+Ballarat[62],Cfb,25C (77F),11C (52F),10C (50F),3C (37F),55,690mm (27in)
+Bendigo[63],Cfa/Cfb,30C (86F),14C (57F),12C (54F),3C (37F),110,514mm (20in)
+Falls Creek[64],Cfc,18C (64F),9C (48F),1C (34F),-3C (27F),N/A,"1,274mm (50in)"
+Geelong[65],Cfb,25C (77F),13C (55F),14C (57F),5C (41F),38[66],524mm (21in)
+Melbourne[67]?(capital),Cfb,26C (79F),14C (57F),14C (57F),6C (43F),49,648mm (26in)
+Mildura[68],BSk,32C (90F),17C (63F),15C (59F),4C (39F),132,291mm (11in)
+Portland[69],Csb/Cfb,22C (72F),12C (54F),13C (55F),6C (43F),40,840mm (33in)
+Shepparton[70],BSk,32C (90F),15C (59F),13C (55F),3C (37F),N/A,452mm (18in)
+Warrnambool[71],Cfb,22C (72F),13C (55F),13C (55F),6C (43F),53,743mm (29in)
+ ,,,,,,,
