@@ -1,0 +1,33 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "January temperature change by state in Australia",
+  "data": {
+    "url": "https://zuomingliu.github.io/Zuoming-Liu3179/Australian temperature by state new.csv"
+  },
+  "selection": {
+    "Sector_highlight": {"type": "multi", "fields": ["State"], "bind": "legend"}
+  },
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "Year", "type": "ordinal", "title": "Year"},
+    "y": {
+      "field": "AverageTemperature",
+      "type": "quantitative",
+      "axis": {"tickCount": 5},
+      "scale": {"domain": [10, 35]}
+    },
+    "color": {"field": "State", "type": "nominal"},
+    "opacity": {
+      "condition": {"selection": "Sector_highlight", "value": 0.6},
+      "value": 0.2
+    },
+    "tooltip": [
+      {"field": "State", "type": "nominal"},
+      {"field": "AverageTemperature", "type": "quantitative", "format": ","},
+      {"field": "Year", "type": "ordinal", "format": ","}
+    ]
+  },
+  "config": {}
+}
