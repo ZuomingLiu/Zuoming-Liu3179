@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "The relationship between the Global sea level and temperature",
+  "width": 400, "height": 300,
+  "data": {
+    "url": "https://zuomingliu.github.io/Zuoming-Liu3179/Sea level and temperature.csv"
+  },
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "Year"
+    }
+  },
+  "layer": [
+    {
+      "mark": {"opacity": 0.3, "type": "line", "color": "#85C5A6"},
+      "encoding": {
+        "y": {
+          "aggregate": "average",
+          "field": "LandAverageTemperature",
+          "scale": {"domain": [1, 4]},
+          "title": "Avg. Temperature (°C)",
+          "axis": {"titleColor": "#85C5A6"}
+        }
+
+      
+      }
+    },
+    {
+      "mark": {"stroke": "#85A9C5", "type": "line", "interpolate": "monotone"},
+      "encoding": {
+        "y": {
+          "aggregate": "average",
+          "field": "GMSL",
+          "title": "Global mean sea level(mm)",
+          "axis": {"titleColor":"#85A9C5"}
+        }
+      }
+    }
+  ],
+  "resolve": {"scale": {"y": "independent"}}
+}
