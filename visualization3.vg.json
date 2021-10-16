@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 500,
+  "height": 400,
+  "title": "The comparison of Juanuary mean temperature in Melborne and Brasilia in the 20th century",
+  "data": {
+  "url": "https://zuomingliu.github.io/Zuoming-Liu3179/city gap.csv"
+  },
+  "selection" : {
+    "Sector_highlight" :{
+      "type":"multi",
+      "fields": ["City"],
+      "bind": "legend"
+    }
+  },
+  "mark": "line",
+  "encoding": {
+  "x": {
+  "field": "year",
+  "type": "ordinal",
+  "title": "Year",
+  "timeUnit": "year"
+  },
+  "y": {
+  "field": "AverageTemperature",
+  "title": "Average Temperature(°C)",
+  "type": "quantitative",
+  "axis": {"tickCount": 5},
+  "scale": { "domain": [10,35]}
+
+  },
+   
+  "color": {
+  "field": "City",
+  "type": "nominal"
+  },
+  "opacity" : {
+    "condition":{"selection":"Sector_highlight", "value":0.6},
+    "value":0.2
+  },
+  "tooltip": [
+    {"field": "City", "type": "nominal"},
+    {"field": "AverageTemperature", "type": "quantitative", "format": ","},
+    {"field": "Year", "type": "ordinal", "format": ","}
+    
+    ]
+  }
+ }
